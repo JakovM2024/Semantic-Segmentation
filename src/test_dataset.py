@@ -1,4 +1,4 @@
-from dataset.py import InriaRoofDataset
+from src.dataset import InriaRoofDataset
 ds = InriaRoofDataset("data/tiles/train", train=True)
 print(len(ds), "samples")
 img, msk = ds[0]
